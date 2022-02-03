@@ -1,0 +1,11 @@
+- id: create-bats-readme
+  name: Create Bats README.md
+  description: Sysdig opinionated bats README creator
+  entry: create-bats-docs
+  language: python
+
+- id: conftest-check
+  name: Conftest test
+  description: Sysdig opinionated conftest validation
+  entry: pre_commit_hooks/conftest-check.sh
+  language: script
