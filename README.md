@@ -60,6 +60,7 @@ repos:
       - id: conftest-check
         args: [-p=mypolicydir, -d=mytargetfiles]
 ```
+
 ## create-patch-files
 
 This hook will create the patch files for the upstream repos that you have configured inside the hook.
