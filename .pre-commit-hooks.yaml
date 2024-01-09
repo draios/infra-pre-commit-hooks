@@ -9,3 +9,10 @@
   description: Sysdig opinionated conftest validation
   entry: pre_commit_hooks/conftest-check.sh
   language: script
+
+- id: create-patch-files
+  name: Create Patch Files
+  description: Create upstream patch files
+  entry: create-patch-files
+  language: python
+  pass_filenames: false
