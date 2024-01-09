@@ -16,3 +16,4 @@
   entry: create-patch-files
   language: python
   pass_filenames: false
+  always_run: true
